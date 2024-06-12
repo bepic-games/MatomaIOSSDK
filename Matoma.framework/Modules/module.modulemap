@@ -1,0 +1,4 @@
+framework module Matoma {
+  header "Matoma-Swift.h"
+  requires objc
+}
