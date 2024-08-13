@@ -304,8 +304,8 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 SWIFT_CLASS("_TtC6Matoma6Matoma")
 @interface Matoma : NSObject
 - (void)setLogUploadDelegate:(void (^ _Nonnull)(NSString * _Nonnull, NSDictionary<NSString *, id> * _Nonnull))delegate;
-+ (Matoma * _Nonnull)sharedInstance SWIFT_WARN_UNUSED_RESULT;
 - (void)onInitWithHost:(NSString * _Nonnull)host network:(NSString * _Nonnull)network campaign:(NSString * _Nonnull)campaign packageName:(NSString * _Nonnull)packageName deviceId:(NSString * _Nonnull)deviceId;
++ (Matoma * _Nonnull)sharedInstance SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
