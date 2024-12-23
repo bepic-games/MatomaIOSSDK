@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name = "MatomaIOSSDK"
-  spec.version="0.2.7"
+  spec.version="0.2.8"
   spec.summary = "Matoma sdk"
   spec.description= <<-DESC
   Matoma SDK for Web
